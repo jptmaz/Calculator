@@ -61,7 +61,8 @@ while True:
             True
         elif Try_again == "NO":
             break
-        
     # Create if, elif, and else function for /
+    elif operation == "DIVISION":
+        print("You chose division!")
     # Ask for numbers and create a program for the operation
     # Ask the user if they want to repeat the program from the beginning.
