@@ -80,6 +80,14 @@ while True:
         elif Try_again == "NO":
             break
     # Create Else statement
+    else:
+        print("I do not understand the command, please input it once more.")
+        print("Would you like to try again?")
+        Try_again = input("= ").upper()
+        if Try_again == "YES":
+            True
+        elif Try_again == "NO":
+            break
 
 # Thank the user
-
+print("Thank you!")
