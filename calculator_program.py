@@ -64,5 +64,12 @@ while True:
     # Create if, elif, and else function for /
     elif operation == "DIVISION":
         print("You chose division!")
-    # Ask for numbers and create a program for the operation
-    # Ask the user if they want to repeat the program from the beginning.
+        # Ask for numbers and create a program for the operation
+        try:
+            number1 = input("What is your first number: ")
+            number2 = input("What is your second number: ")
+            quotient = int(number1) / int(number2)
+            print(quotient)
+        except ValueError:
+            print("An error has occurred, please try again.")
+        # Ask the user if they want to repeat the program from the beginning.
