@@ -47,6 +47,13 @@ while True:
     elif operation == "MULTIPLICATION":
         print("You chose multiplication!")
         # Ask for numbers and create a program for the operation
+        try:
+            number1 = input("What is your first number: ")
+            number2 = input("What is your second number: ")
+            product = int(number1) * int(number2)
+            print(product)
+        except ValueError:
+            print("An error has occurred, please try again.")
         # Ask the user if they want to repeat the program from the beginning.
     # Create if, elif, and else function for /
     # Ask for numbers and create a program for the operation
