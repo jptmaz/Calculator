@@ -44,8 +44,10 @@ while True:
             break
         
     # Create if, elif, and else function for *
-    # Ask for numbers and create a program for the operation
-    # Ask the user if they want to repeat the program from the beginning.
+    elif operation == "MULTIPLICATION":
+        print("You chose multiplication!")
+        # Ask for numbers and create a program for the operation
+        # Ask the user if they want to repeat the program from the beginning.
     # Create if, elif, and else function for /
     # Ask for numbers and create a program for the operation
     # Ask the user if they want to repeat the program from the beginning.
